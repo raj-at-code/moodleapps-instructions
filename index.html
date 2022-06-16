@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <h1>
+            LMSApps
+        </h1>
+
+        <hr />
+
+        <h3>Welcome to Upthink's LMSApps!</h3>
+        Click on the tab appropriate for you to get inststructions for accessing SQL Shell
+
+        <div class="tabs">
+            <button class="tabLink" onclick="openInstruction(event, 'google')">Signing In with a Google Account</button>
+            <button class="tabLink" onclick="openInstruction(event, 'others')">Signing In with Other Account</button>
+        </div>
+
+        <div id="google" class="tabContent">
+            <ul>
+                <li>
+                    <div>
+                        <p>
+                            Click on the Login button on the bottom of the page
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="listItemWithImage">
+                        <p>
+                            Then choose the Continue with Google option
+                        </p>
+                        <img src="./assets/googleStep2.jpg" />
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>
+                            Select your account from the list of accounds displayed on the next page
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>
+                            You will be logged in
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="listItemWithImage">
+                        <p>
+                            Once logged in, click on the I am Student button and notify about the same by sending an email on this address - xyz@upthink.com
+                        </p>
+                        <img width="800" src="./assets/Screenshot from 2022-06-16 11-55-26.png" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="others" class="tabContent">
+            <ul>
+                <li>
+                    <div>
+                        <p>
+                            Click on the Login button on the bottom of the page
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="listItemWithImage">
+                        <p>
+                            Then choose the Sign Up option on the right pane
+                        </p>
+                        <img src="./assets/loginMoodleApps3rdParty0.jpg" />
+                    </div>
+                </li>
+                <li>
+                    <div class="listItemWithImage">
+                        <p>
+                            Enter your email ID, create a strong password and confirm the same
+                        </p>
+                        <img src="./assets/loginMoodleApps3rdParty1.jpg" />
+                    </div>
+                </li>
+                <li>
+                    <div class="listItemWithImage">
+                        <p>
+                            Click on Sign up. Upon clicking on the signup button, you will be asked to enter a code that will be sent on the email address that you have mentioned in the signup form
+                        </p>
+                        <img src="./assets/loginMoodleApps3rdParty2.png" />
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>
+                            Enter the code and click on verify and you will be logged in if the code is correct
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="listItemWithImage">
+                        <p>
+                            Once logged in, click on the I am Student button and notify about the same by sending an email on this address - xyz@upthink.com
+                        </p>
+                        <img width="800" src="./assets/Screenshot from 2022-06-16 11-55-26.png" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <hr style="margin-top: 30px;" />
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
